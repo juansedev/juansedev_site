@@ -46,6 +46,9 @@ nav > .nav-links > a:hover {
 nav > #nav-check {
   display: none;
 }
+nav > .nav-links {
+  display: none;
+}
 .main-content {
   width: 100%;
   display: grid;
@@ -117,14 +120,17 @@ nav > #nav-check {
   nav > .nav-btn > label:hover,
   nav #nav-check:checked ~ .nav-btn > label {
     background-color: rgba(0, 0, 0, 0.3);
+    display: none;
   }
   nav > .nav-btn > label > span {
     display: block;
     width: 25px;
     height: 10px;
     border-top: 2px solid #eee;
+    display: none;
   }
   nav > .nav-links {
+    display: none;
     position: absolute;
     display: block;
     width: 100%;
@@ -138,13 +144,18 @@ nav > #nav-check {
   nav > .nav-links > a {
     display: block;
     width: 100%;
+    display: none;
   }
   nav > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
   }
   nav > #nav-check:checked ~ .nav-links {
+    display: none;
     height: calc(100vh - 50px);
     overflow-y: auto;
+  }
+  nav > .nav-links {
+    display: none;
   }
   .main-content {
     grid-template-columns: 100%;
