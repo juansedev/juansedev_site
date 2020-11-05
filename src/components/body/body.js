@@ -28,11 +28,11 @@ export default function Body() {
             </div>
             
             <div className="nav-links">
-              <a href="" target="_blank">About me</a>
-              <a href="" target="_blank">Resume</a>
-              <a href="" target="_blank">Portfolio</a>
-              <a href="" target="_blank">Blog</a>
-              <a href="" target="_blank">Contact</a>
+              <a href="">About me</a>
+              <a href="">Resume</a>
+              <a href="">Portfolio</a>
+              <a href="">Blog</a>
+              <a href="">Contact</a>
             </div>
           </nav>
 
