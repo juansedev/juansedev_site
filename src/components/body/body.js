@@ -4,6 +4,7 @@ import './body.css';
 
 /* images */
 import logo from '../images/logo_icon.jpg';
+import profile_photo from '../images/profile_photo.png';
 
 export default function Body() {
 
@@ -36,10 +37,19 @@ export default function Body() {
           </nav>
 
           <main className="main-content">
-            <h1> Main content</h1>
+            <div class="circle">
+	            <img src={profile_photo} alt="Juan Sebastian"/>
+            </div>
+
+            <div className="presentation">
+              <p>Full-stack developer</p>
+              <h1> Juan Sebastian Llano Gallego</h1>
+              <p>Software developer passionate about sharing knowledge and conveying ideas, with more than two years of experience in customer service and software technical support. Interested in understanding how people consume digital products that find in the environment and how to create products through technology</p>
+            </div>
+
           </main>
           <footer className="footer-content">
-              <p>footer</p>
+              {/* <p>footer</p> */}
           </footer>
       </div>
     </>
