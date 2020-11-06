@@ -31,9 +31,9 @@ export default function Body() {
                 <span></span>
                 <span></span>
               </label>
-            </div>
+            </div> 
             
-            <div className="nav-links">
+            <div className="menu">
               {/* <a href="#resume">About me</a> */}
               <a href="#intro">Home</a>
               <a href="#resume">Resume</a>
