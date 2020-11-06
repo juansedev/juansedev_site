@@ -11,7 +11,9 @@
 .logo-branding {
   width: 18%;
 }
+
 nav {
+  position: fixed;
   height: 60px;
   width: 100%;
   position: relative;
@@ -46,31 +48,72 @@ nav > .nav-links > a:hover {
 nav > #nav-check {
   display: none;
 }
-nav > .nav-links {
-  display: none;
-}
 .main-content {
   width: 100%;
   display: grid;
-  grid-template-columns: 45% 55%;
+  grid-template-columns: 50% 50%;
   grid-template-rows: auto;
   margin: 0 auto;
   justify-self: center;
   align-self: center;
-  grid-template-areas: "circle presentation";
+  grid-template-areas:
+    "intro intro"
+    "resume resume"
+    "footer footer";
 }
-.circle {
-  grid-area: circle;
-}
-.presentation {
-  color: #333;
-  grid-area: presentation;
-  width: 90%;
-  text-align: left;
-  margin: 5% 0px;
-  line-height: 1.45;
+.resume {
+  grid-area: resume;
+  width: 100%;
+  text-align: center;
+  background-color: #f5f6f6;
+  padding: 20px 0px;
+  border-radius: 40px;
 }
 
+.pdf {
+  width: 80%;
+  height: 600px;
+}
+.intro {
+  grid-area: intro;
+  padding: 5% 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-first {
+  width: 100%;
+  font-size: 35px;
+  font-weight: 400;
+  color: #022b3e;
+  margin-bottom: 40px;
+  line-height: 0.7;
+  text-align: center;
+}
+.title-second {
+  width: 100%;
+  font-size: 35px;
+  font-weight: 600;
+  /* color: #f4f7f4; */
+  margin-bottom: 40px;
+  color: #fe414a;
+  /* color: #47bdc7; */
+  line-height: 0.7;
+  text-align: center;
+}
+.paragraph {
+  font-size: 24px;
+  font-weight: 300;
+  color: #333;
+  line-height: 1.5;
+  margin: 0px 10% 3% 10%;
+  text-align: center;
+  width: 85%;
+  /* color: #fe414a; */
+  /* color: #47bdc7; */
+}
 .circle {
   width: 100%;
   display: inline-block; /* circle wraps image */
@@ -78,13 +121,13 @@ nav > .nav-links {
   border: 4px solid rgba(200, 200, 200, 0.4);
   border-radius: 50%; /* relative value */
   /*box-shadow: 0px 0px 5px rgba(0,0,0,0.4);*/
-  transition: linear 0.25s;
-  height: 308px;
-  width: 308px;
+  /* transition: linear 0.25s; */
+  height: 258px;
+  width: 258px;
 }
 .circle img {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   border-radius: 50%; /* relative value for
 				   adjustable image size */
 }
@@ -93,7 +136,34 @@ nav > .nav-links {
   border: 4px solid #022b3e;
   -webkit-transition: ease-out 0.2s;
 }
-
+.footer-content {
+  text-align: center;
+}
+.profile-icons {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.icon {
+  width: 47px;
+  height: 47px;
+  margin: 0px 20px;
+}
+.icon-brand {
+  margin: 30px 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-js {
+  width: 60px;
+  height: 60px;
+  margin: 20px 20px;
+}
+.baner-js {
+  width: 10%;
+}
 @media (max-width: 600px) {
   .page-content {
     border-radius: 20px;
@@ -120,17 +190,14 @@ nav > .nav-links {
   nav > .nav-btn > label:hover,
   nav #nav-check:checked ~ .nav-btn > label {
     background-color: rgba(0, 0, 0, 0.3);
-    display: none;
   }
   nav > .nav-btn > label > span {
     display: block;
     width: 25px;
     height: 10px;
     border-top: 2px solid #eee;
-    display: none;
   }
   nav > .nav-links {
-    display: none;
     position: absolute;
     display: block;
     width: 100%;
@@ -144,24 +211,19 @@ nav > .nav-links {
   nav > .nav-links > a {
     display: block;
     width: 100%;
-    display: none;
   }
   nav > #nav-check:not(:checked) ~ .nav-links {
     height: 0px;
   }
   nav > #nav-check:checked ~ .nav-links {
-    display: none;
     height: calc(100vh - 50px);
     overflow-y: auto;
-  }
-  nav > .nav-links {
-    display: none;
   }
   .main-content {
     grid-template-columns: 100%;
     grid-template-areas:
       "circle"
-      "presentation";
+      "title-first";
   }
   .circle {
     width: 208px;
@@ -172,7 +234,7 @@ nav > .nav-links {
     width: 200px;
     height: 200px;
   }
-  .presentation {
+  .title-first {
     width: 100%;
   }
 }
