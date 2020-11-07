@@ -58,13 +58,18 @@ nav > .menu > a:hover {
   align-self: center;
   grid-template-areas:
     "intro intro"
+    "stack stack"
     "resume resume"
     "about about"
     "portfolio portfolio"
     "blog blog";
 }
+/* Grid templates for layout */
 .portfolio {
   grid-area: portfolio;
+}
+.stack {
+  grid-area: stack;
 }
 .about {
   grid-area: about;
@@ -74,6 +79,10 @@ nav > .menu > a:hover {
 }
 .intro {
   grid-area: intro;
+}
+/* **************************************** */
+/* intro Section */
+.intro {
   padding: 5% 0%;
   width: 100%;
   display: flex;
@@ -84,7 +93,7 @@ nav > .menu > a:hover {
 .circle {
   /* width: 100%; */
   display: inline-block; /* circle wraps image */
-  margin: 0% 5%;
+  margin: 40px 5%;
   border: 7px solid rgba(200, 200, 200, 0.4);
   border-radius: 50%; /* relative value */
   /*box-shadow: 0px 0px 5px rgba(0,0,0,0.4);*/
@@ -107,13 +116,13 @@ nav > .menu > a:hover {
   display: inline-block;
   position: relative;
   font-family: "Montserrat", sans-serif;
-  font-size: 17px;
+  font-size: 19px;
   border-radius: 30px;
   padding: 0.5em 1.8em;
   background-color: #fff;
   font-weight: 400;
   text-align: center;
-  border: 2px solid #022b3e;
+  border: 2px solid #47bdc7;
 }
 .btn a {
   text-decoration: none;
@@ -127,7 +136,7 @@ nav > .menu > a:hover {
 }
 .title-first {
   width: 100%;
-  font-size: 30px;
+  font-size: 33px;
   font-weight: 400;
   color: #022b3e;
   /* margin-bottom: 40px; */
@@ -135,16 +144,12 @@ nav > .menu > a:hover {
   line-height: 0.9;
 }
 .paragraph {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 300;
   color: #333;
   line-height: 1.5;
   margin: 20px 0px;
-  /* margin: 0px 10% 3% 10%; */
-  /* text-align: center; */
   width: 100%;
-  /* color: #fe414a; */
-  /* color: #47bdc7; */
 }
 .circle img {
   height: 270px;
@@ -154,9 +159,10 @@ nav > .menu > a:hover {
 }
 .circle:hover {
   transition: ease-out 0.2s;
-  border: 7px solid #022b3e;
+  border: 7px solid #47bdc7;
   -webkit-transition: ease-out 0.2s;
 }
+/* Resume sectcion */
 .resume {
   grid-area: resume;
   width: 100%;
@@ -170,16 +176,32 @@ nav > .menu > a:hover {
   height: 600px;
   margin: 20px 0px;
 }
-.title-second {
+/* .title-second {
   width: 100%;
   font-size: 35px;
   font-weight: 400;
-  /* color: #f4f7f4; */
+  /* color: #f4f7f4; *
   color: #fe414a;
-  /* color: #47bdc7; */
+  /* color: #47bdc7; *
   line-height: 0.7;
   text-align: center;
+} */
+/* Section Stack */
+.stack {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 60px;
 }
+.stack h2 {
+  margin-top: 20px;
+}
+.image {
+  width: 40%;
+}
+/* Footer */
 .footer-content {
   text-align: center;
 }
@@ -207,131 +229,4 @@ nav > .menu > a:hover {
 }
 .baner-js {
   width: 10%;
-}
-@media (max-width: 600px) {
-  .page-content {
-    border-radius: 20px;
-    padding: 25px 20px;
-  }
-  .logo-branding {
-    width: 40%;
-  }
-  .nav-content {
-  }
-  nav > .nav-icon {
-    margin: 0px;
-  }
-  nav > .nav-btn {
-    display: inline-block;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-  }
-  nav > .nav-btn > label {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    padding: 13px;
-  }
-  nav > .nav-btn > label:hover,
-  nav #nav-check:checked ~ .nav-btn > label {
-    background-color: #fff;
-  }
-  nav > .nav-btn > label > span {
-    display: block;
-    width: 25px;
-    height: 5px;
-    margin-bottom: 5px;
-    border-radius: 3px;
-    /* border-top: 2px solid #eee; */
-    background-color: #022b3e;
-  }
-  nav > .menu {
-    position: absolute;
-    display: block;
-    width: 100%;
-    background-color: #fff;
-    height: 0px;
-    transition: all 0.3s ease-in;
-    overflow-y: hidden;
-    top: 50px;
-    left: 0px;
-  }
-  nav > .menu > a {
-    display: block;
-    width: 100%;
-  }
-
-  nav > #nav-check:not(:checked) ~ .menu {
-    height: 0px;
-  }
-  nav > #nav-check:checked ~ .menu {
-    height: 160px;
-    overflow-y: auto;
-    border-bottom: 1px solid #022b3e;
-  }
-  .main-content {
-    grid-template-columns: 100%;
-    grid-template-areas:
-      "intro"
-      "resume"
-      "about"
-      "portfolio"
-      "blog";
-  }
-  .intro {
-    width: 100%;
-    margin: 0;
-    flex-direction: column;
-  }
-  .circle {
-    width: 208px;
-    height: 208px;
-    margin: 0px 15%;
-  }
-  .intro-text {
-    width: 100%;
-    margin: 0;
-  }
-  .circle img {
-    width: 195px;
-    height: 195px;
-  }
-  .title-first {
-    width: 100%;
-    font-size: 25px;
-    text-align: center;
-  }
-  .paragraph {
-    width: 100%;
-    font-size: 18px;
-    line-height: 1.1;
-    text-align: center;
-  }
-  .btn-contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-  }
-  .left-btn {
-    margin: 0;
-  }
-  .btn {
-    margin: 5px;
-  }
-  .resume {
-    width: 100%;
-    margin: 0;
-  }
-  .pdf {
-    width: 100%;
-    height: 500px;
-  }
-  .icon-brand {
-    width: 100%;
-  }
-  .baner-js {
-    width: 30%;
-  }
 }
