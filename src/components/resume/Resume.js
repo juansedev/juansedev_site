@@ -1,10 +1,10 @@
 import React from "react";
-// import './Body.css';
-// import './Body_responsive_600px.css';
+import './Resume.css';
+import './Resume_responsive600px.css';
 
 
 /* pdf */
-import resume from '../asets/JuanSebastianLlanocV.pdf';
+import resume from '../assets/JuanSebastianLlanocV.pdf';
 
 export default function Resume() {
 

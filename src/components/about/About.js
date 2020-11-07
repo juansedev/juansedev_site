@@ -1,9 +1,9 @@
 import React from "react";
-// import './Body.css';
-// import './Body_responsive_600px.css';
+import './About.css';
+import './About_responsive_600px.css';
 
 /* pdf */
-import resume from '../asets/JuanSebastianLlanocV.pdf';
+import resume from '../assets/JuanSebastianLlanocV.pdf';
 import { Link} from 'react-router-dom';
 
 /* images */
@@ -34,7 +34,7 @@ export default function About() {
       <section id="about" className="stack">
         <h2 className="title-first center">Hi, I’m Juan Sebastian. Nice to meet you.</h2>
         <p className="paragraph center">
-          From the beginning of my academic and working life, I've been connected with the software development world, I have programmed PIC microcontrollers, mis firsts languages were C and Dr. Scheme, I have studied about agile(SCRUM), low level, linux and web development.
+          From the beginning of my academic and working life, I've been connected with software development world, I have programmed PIC microcontrollers, my firsts languages were C++ and Dr. Scheme, I have studied about agile(SCRUM), low level, linux and web development.
           <br />Know more about my journey in <Link to="/travel_in_tech">My journey at Tech</Link>.
         </p>
         <img className='image' src={launch_rocket} alt="image-rocket-launch" />
