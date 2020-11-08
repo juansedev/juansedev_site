@@ -35,10 +35,13 @@ export default function About() {
         <h2 className="title-first center">Hi, I’m Juan Sebastian. Nice to meet you.</h2>
         <p className="paragraph center">
           From the beginning of my academic and working life, I've been connected with software development world, I have programmed PIC microcontrollers, my firsts languages were C++ and Dr. Scheme, I have studied about agile(SCRUM), low level, linux and web development.
-          <br />Know more about my journey in <Link to="/travel_in_tech">My journey at Tech</Link>.
+          <br />Let's start this journey.
         </p>
-        <img className='image' src={launch_rocket} alt="image-rocket-launch" />
+        <Link className="link" to="/travel_in_tech">
+          <img className='image' src={launch_rocket} alt="image-rocket-launch" />
+        </Link>
       </section>
+      
     </>
   );
 }

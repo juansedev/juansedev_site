@@ -90,6 +90,10 @@
 .stack h2 {
   margin-top: 20px;
 }
+.link {
+  width: 100%;
+  text-align: center;
+}
 .image {
   width: 40%;
 }
