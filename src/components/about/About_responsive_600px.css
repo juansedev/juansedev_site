@@ -41,14 +41,8 @@
     margin: 5px;
   }
   /* Stack section */
-  .stack {
-    width: 100%;
-    padding: 0px;
-  }
+
   .image {
     width: 100%;
-  }
-  .stack .title-first,
-  .stack .paragraph {
   }
 }

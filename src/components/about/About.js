@@ -15,7 +15,7 @@ export default function About() {
 
   return (
     <>
-      <section id="intro"className="intro">
+      <section className="intro">
         <div class="circle">
           <img src={profile_photo} alt="Juan Sebastian"/>
         </div>
@@ -31,7 +31,7 @@ export default function About() {
       </section>
 
       
-      <section id="about" className="stack">
+      <section className="stack">
         <h2 className="title-first center">Hi, I’m Juan Sebastian. Nice to meet you.</h2>
         <p className="paragraph center">
           From the beginning of my academic and working life, I've been connected with software development world, I have programmed PIC microcontrollers, my firsts languages were C++ and Dr. Scheme, I have studied about agile(SCRUM), low level, linux and web development.
