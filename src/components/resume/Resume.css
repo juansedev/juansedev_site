@@ -1,10 +1,8 @@
 /* Resume sectcion */
 .resume {
-  grid-area: resume;
   width: 100%;
   text-align: center;
   padding: 20px 0px;
-  /* border: 2px solid #022b3e; */
   border-radius: 40px;
 }
 .pdf {
@@ -22,4 +20,3 @@
   line-height: 0.7;
   text-align: center;
 } */
-/* Section Stack */

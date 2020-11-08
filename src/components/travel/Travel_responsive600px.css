@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+  /* Resume */
+  .travel {
+    width: 100%;
+    margin: 0;
+  }
+  .story {
+    flex-direction: column;
+  }
+  .main-paragraph {
+    margin: 0;
+    width: 100%;
+  }
+  .main-paragraph,
+  .paragraph-story {
+    width: 100%;
+    margin: 0;
+    font-size: 15px;
+    padding: 0;
+  }
+  .image-story {
+    width: 100%;
+  }
+  .image-content {
+    width: 80%;
+  }
+}

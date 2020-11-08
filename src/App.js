@@ -19,7 +19,7 @@ function App() {
       <Router>
 
         {/* in this article it renders whole SPA */}
-        <article className="page-content">
+        <article id="home" className="page-content">
           {/* 
             * Nav bar, implement the logi for render a burguer menu in responsive 600px,
             * Alert: Responsive design is missing for other screen sizes
@@ -28,7 +28,7 @@ function App() {
             <input type="checkbox" id="nav-check"/>
 
             <div className="nav-icon">
-              <img className='logo-branding' src={baner} alt="Logo-juanse-developer" />
+              <Link to="/"><img className='logo-branding' src={baner} alt="Logo-juanse-developer" /></Link>
             </div>
 
             <div className="nav-btn">
