@@ -16,68 +16,75 @@ export default function Preview() {
   return(
     <>
       <section className="travel">
-        {alert("Site in construction - Last update: Sunday 9th November 2020, 2:25 a.m. GMT-5")}
         <h2 className="title-first">My journey in tech world</h2>
         <img className="image top" src={moving_forward} alt="person-movinf-forward"/>
         <p className="main-paragraph">
-          From the beginning of my academic and working life, I've been connected with software development world, I have programmed PIC microcontrollers, my firsts languages were C++ and Dr. Scheme, I have studied about agile(SCRUM), low level, linux and web development.
-          <br /><br />This is my journey in tech world.
+          From the beginning of my academic and working life, I've been connected with software development world, I have programmed PIC microcontrollers,
+           my firsts languages were <span>C++</span> and <span>Dr. Scheme</span>, I have studied about agile(<span>SCRUM</span>), <span>low level</span>, <span>Linux</span> and <span>web development</span>.
+          {/* <br /> */}
+          <br />This is my journey in tech world.
         </p>
         <h2 className="title-second">The beginning</h2>
         <section className="story">
           <p className="paragraph-story">
-            Mis primeros lenguajes de programación los conocí en mi colegio, fueron  Lader(especifico para programar PLC's) y assembler.
-            En la universidad estudie Tecnología en Electrónica aprendí sobre electrónica analógica, digital entre otras cosas, sin embargo 
-            las asignaturas que más disfrute se relacionaban con programación, aprendí desde diseñar algoritmos y secuencias en un papel hasta 
-            crear mis primeras líneas de código en C++, fue un proceso muy interesante. Más tarde trabaje con Microcontroladores PIC, este fue
-            un paso especial porque yo mismo diseño mi primera placa donde probe mis programas. 
+            The first programming languages ​​I knew in high school, were <span>Lader</span> and <span>assembler</span>. At university, I studied Electronic Technology, I learned about
+            analogic and digital electronics, among other things.However, the classes that I enjoyed most were related to programming, <span>I typed my first 
+            lines of code in C++</span>, it was an interesting process. Then I worked with PIC microcontrollers, in this ocassions it was special, because I created
+            my first circuit board where I tested my programs.
           </p>
           <div className="image-story">
             <img className="image-content" src={beginnig} alt="site-under-construction"/>
           </div>
+          
         </section>
         <h2 className="title-second">The next steps</h2>
         <section className="story">
           
           <p className="paragraph-story">
-            Eventualmente trabaje en varias empresas y retome mis estudios, esta vez fue Tecnología en Sistemas, estudie con lenguajes como 
-            Dr. Scheme, C++, JAVA, mejore mi lógica a través de asignaturas pensadas en ciencias de la computación desde un enfoque sistémico 
-            pensado en resolver los problemas de manera integral, en esta parte de mi historia tome la oportunidad de trabajar, pero eso se los cuento
-            en un rato, también realice estudios relacionados con SCRUM en este proceso trabaje con lenguajes como PHP y MySQL, como proyecto
-            final realizamos un sistema de peticiones en el que participe como desarrollador frontend con el Framework Angular 7.
+            Eventually, I worked in some companies and come back to the university, this time I studied System Technology, I studied with
+            programming languages such as <span>Dr.Scheme</span>, <span>C++</span>, <span>JAVA</span>, I improve my logic through classes based in <span>computer science</span> from a systemic
+            approach <span>searching to resolve problems that integral way</span>. In this part of my story, I had the opportunity to work on a Tech company 
+            but tell you in a moment. <br/>
+            Besides I did studies related to <span>SCRUM</span>, in the process I worked with <span>PHP</span> and <span>MySQL</span>,  as a final project we refactor a request 
+            system(PQR), participated as a frontend developer with the <span>Angular 7</span> Framework.
           </p>
           <div className="image-story">
             <img className="image-content" src={next_steps} alt="site-under-construction"/>
           </div>
+          
         </section>
         <h2 className="title-second">Working life</h2>
         <section className="story">
           
           <p className="paragraph-story">
-            Desde mi inicio en el mundo tech pasaron 8 años antes de mi primer trabajo en Tech, antes había trabajado en atención al cliente y como vendedor
-            de seguros, estas experiencias complementaron mi perfil, este trabajo fue como consultor de soporte de software, aprendí sobre
-            servidores Linux, Windows y bases de datos PostgreSQL, poco tiempo después me seleccionaron con líder de un nuevo proyecto, participe desde su
-            estandarización, puesta en marcha y gestión.
+            From my beginnings in the tech world, it was 8 years before <span>my first job in this industry</span>, previously worked in customer service and
+            insurance sales, these experiences complimented my profile, I worked as a <span>software support consultant</span>, I learned about <span>Linux</span> and Windows
+            servers and <span>PostgreSQL databases</span>. Then I was selected as a <span>Lead of a new project</span>,  I participated in its implementation, standardization
+            and management
           </p>
           <div className="image-story">
             <img className="image-content" src={working_life} alt="site-under-construction"/>
           </div>
+      
           
         </section>
         <h2 className="title-second">At the present</h2>
         <section className="story">
           
           <p className="paragraph-story">
-            Finalmente ingrese a Holberton School un lugar donde pude consolidar todas estas experiencias, fueron 9 meses trabajando de manera
-            independiente y en equipo en los que me enfrente a resolver problemas con estructuras de datos, low level, high level con lenguajes
-            como C, Bash, Python, JavaScript, HTML y CSS, aprendiendo de todo el proceso de desarrollo de software, te comparto mi ultimo proyecto,
-            trabajamos en equipo para desarrollar Hovify, en este proyecto participe como frontend developer en React.
+            Finally, I joined Holberton Schooll, in this place I could consolidate all these experiences, it was 9 months working  indepent and teams,
+            I faced to resolve problems with <span>data strcutures</span>, <span>DevOps</span>, <span>low level</span>, and <span>high level</span> with languages such as <span>C</span>, <span>Bash</span>, <span>Python</span>, <span>JavaScript</span>,
+            <span>HTML</span> and <span>CSS</span>,  I share with you my <span>last project</span>, we work to create <span><strong><a href="https://hovify.works/">HoviFy</a></strong></span>, in this project as a Frontend developer with <span>React</span>.
           </p>
           <div className="image-story">
             <img className="image-content" src={at_the_present} alt="site-under-construction"/>
           </div>
           
         </section>
+        <p className="main-paragraph">
+          Up to this point I have told you a part of my story, the next step is to get more experience in web development. In the future I would like
+          to share with you some advice based on my experience. If you like it I invite you to join my network.
+        </p>
       </section>
     </>
   );

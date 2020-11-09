@@ -11,6 +11,15 @@
 .top {
   margin-top: 15px;
 }
+.title-second {
+  width: 100%;
+  font-size: 33px;
+  font-weight: 400;
+  color: #022b3e;
+  margin: 20px 0px;
+
+  line-height: 0.9;
+}
 .story {
   width: 100%;
   /* border: solid 1px red; */
@@ -40,6 +49,15 @@
   /* border: solid 1px chartreuse; */
   text-align: left;
 }
+.main-paragraph span,
+.paragraph-story a,
+.paragraph-story span {
+  color: #fe414a;
+  text-decoration: none;
+}
+/* .main-title span ~ span {
+  color: #262ad1;
+} */
 .image-story {
   width: 55%;
   /* border: solid 1px crimson; */

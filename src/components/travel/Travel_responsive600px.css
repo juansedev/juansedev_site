@@ -24,4 +24,12 @@
   .image-content {
     width: 80%;
   }
+  .title-second {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 400;
+    color: #022b3e;
+    margin: 20px 0px;
+    line-height: 0.9;
+  }
 }
