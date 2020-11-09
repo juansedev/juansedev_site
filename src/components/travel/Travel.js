@@ -16,7 +16,7 @@ export default function Preview() {
   return(
     <>
       <section className="travel">
-        {alert("Site in construction - Last update: Sunday 8th November 2020, 1:33 p.m. GMT-5")}
+        {alert("Site in construction - Last update: Sunday 9th November 2020, 2:25 a.m. GMT-5")}
         <h2 className="title-first">My journey in tech world</h2>
         <img className="image top" src={moving_forward} alt="person-movinf-forward"/>
         <p className="main-paragraph">
