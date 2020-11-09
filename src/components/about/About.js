@@ -24,7 +24,7 @@ export default function About() {
 
   return (
     <>
-      <section className="intro">
+      <section  id="start"className="intro">
         <div class="circle">
           <img src={profile_photo} alt="Juan Sebastian"/>
         </div>
@@ -46,7 +46,7 @@ export default function About() {
           From the beginning of my academic and working life, I've been connected with software development world, I have programmed PIC microcontrollers, my firsts languages were C++ and Dr. Scheme, I have studied about agile(SCRUM), low level, linux and web development.
           <br />Let's start this journey.
         </p>
-         <Link className="link" to="/travel_in_tech">
+        <Link className="link" to="/travel_in_tech">
           <img className='image' src={launch_rocket} alt="image-rocket-launch" />
         </Link>
         {/* <form className="contact-form" onSubmit={nextPage}>

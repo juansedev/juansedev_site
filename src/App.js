@@ -44,6 +44,7 @@ function App() {
               <Link to="/travel_in_tech">Travel in tech</Link>
               <Link to="/resume">Resume</Link>
               <Link to="/contact">Contact</Link>
+
             </div>
 
           </nav>
