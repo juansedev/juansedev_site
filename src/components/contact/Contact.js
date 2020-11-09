@@ -29,10 +29,11 @@ export default function Contact() {
         <form className="contact-form" onSubmit={sendEmail}>
           <div className="contact-details">
             <label>Name</label>
-            <label>Email</label>
+            <input type="text" name="user_name" />
+            
           </div>
           <div className="contact-details">
-            <input type="text" name="user_name" />
+            <label>Email</label>
             <input type="email" name="user_email" />
           </div>
           <div className="contact-details">

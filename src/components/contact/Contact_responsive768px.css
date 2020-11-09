@@ -1,2 +1,13 @@
 @media (max-width: 768px) {
+  .contact-details {
+    flex-direction: column;
+  }
+  .contact-details input,
+  .contact-details label {
+    width: 100%;
+  }
+  .content-message textarea {
+    width: 100%;
+    margin: 0;
+  }
 }
