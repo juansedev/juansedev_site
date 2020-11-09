@@ -72,9 +72,9 @@ export default function Preview() {
         <section className="story">
           
           <p className="paragraph-story">
-            Finally, I joined Holberton Schooll, in this place I could consolidate all these experiences, it was 9 months working  indepent and somethomes teams,
+            Finally, I joined Holberton School, in this place I could consolidate all these experiences, it was 9 months working  indepent and somethomes teams,
             I faced to resolve problems with <span>data strcutures</span>, <span>DevOps</span>, <span>low level</span>, and <span>high level</span> with languages such as <span>C</span>, <span>Bash</span>, <span>Python</span>, <span>JavaScript</span>,
-            <span>HTML</span> and <span>CSS</span>,  I share with you my <span>last project</span>, we work to create <span><strong><a href="https://hovify.works/">HoviFy</a></strong></span>, in this project my role was a Frontend developer with <span>React</span>.
+            <span>HTML</span> and <span>CSS</span>,  I share with you my <span>last project</span>, we work to create <span><strong><a href="https://hovify.works/">HoviFy</a></strong></span>, in this project my role was as Frontend developer with <span>React</span>.
           </p>
           <div className="image-story">
             <img className="image-content" src={at_the_present} alt="site-under-construction"/>
@@ -82,8 +82,7 @@ export default function Preview() {
           
         </section>
         <p className="main-paragraph">
-          Up to this point I have told you a part of my story, the next step is to get more experience in web development. In the future I would like
-          to share with you some advice based on my experience. If you like it I invite you to join my network.
+          Up to this point, I have told you a part of my story, the next step is to get more experience in web development.  In the future, I would like to share with you advice based on my travel. If you like it the idea I invite you to join my network.
         </p>
       </section>
     </>

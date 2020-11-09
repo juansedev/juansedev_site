@@ -18,8 +18,8 @@ export default function About() {
 
   function nextPage(e) {
     e.preventDefault();
-
-    history.push('/travel_in_tech');
+    window.scrollTo(0,0); 
+    history.push("/travel_in_tech")
   }
 
   return (
@@ -46,14 +46,11 @@ export default function About() {
           From the beginning of my academic and working life, I've been connected with software development world, I have programmed PIC microcontrollers, my firsts languages were C++ and Dr. Scheme, I have studied about agile(SCRUM), low level, linux and web development.
           <br />Let's start this journey.
         </p>
-        <Link className="link" to="/travel_in_tech">
-          <img className='image' src={launch_rocket} alt="image-rocket-launch" />
-        </Link>
-        {/* <form className="contact-form" onSubmit={nextPage}>
-          <button className="btn width-30" type="submit">Start travel</button>
-        </form> */}
+        <img className='image' src={launch_rocket} alt="image-rocket-launch" onClick={nextPage} />
       </section>
       
     </>
   );
 }
+
+
