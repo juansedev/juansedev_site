@@ -1,6 +1,6 @@
 import './App.css';
 import './App_responsive600px.css';
-import {About, Resume, Travel }from "./components";
+import {About, Resume, Travel, Contact }from "./components";
 
 import { BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
 
@@ -43,7 +43,7 @@ function App() {
               <Link to="/">Home</Link>
               <Link to="/travel_in_tech">Travel in tech</Link>
               <Link to="/resume">Resume</Link>
-              <a href="#contact">Contact</a>
+              <Link to="/contact">Contact</Link>
             </div>
 
           </nav>
@@ -58,6 +58,9 @@ function App() {
             </Route>
             <Route exact path="/resume">
               <Resume />
+            </Route>
+            <Route exact path="/contact">
+              <Contact />
             </Route>
           </Switch>
 

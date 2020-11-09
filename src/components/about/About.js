@@ -4,14 +4,23 @@ import './About_responsive_600px.css';
 
 /* pdf */
 import resume from '../assets/JuanSebastianLlanocV.pdf';
-import { Link} from 'react-router-dom';
+import { useHistory, Link } from 'react-router-dom';
+
 
 /* images */
 import profile_photo from '../images/photo-juanse-developer.png';
 import launch_rocket from '../images/launching-pana.svg'; 
 
 export default function About() {
+  /* ------------------------------------------------------ */
+    const history = useHistory();
+  /* ------------------------------------------------------ */
 
+  function nextPage(e) {
+    e.preventDefault();
+
+    history.push('/travel_in_tech');
+  }
 
   return (
     <>
@@ -37,9 +46,12 @@ export default function About() {
           From the beginning of my academic and working life, I've been connected with software development world, I have programmed PIC microcontrollers, my firsts languages were C++ and Dr. Scheme, I have studied about agile(SCRUM), low level, linux and web development.
           <br />Let's start this journey.
         </p>
-        <Link className="link" to="/travel_in_tech">
+         <Link className="link" to="/travel_in_tech">
           <img className='image' src={launch_rocket} alt="image-rocket-launch" />
         </Link>
+        {/* <form className="contact-form" onSubmit={nextPage}>
+          <button className="btn width-30" type="submit">Start travel</button>
+        </form> */}
       </section>
       
     </>

@@ -1,0 +1,62 @@
+.contact {
+  width: 90%;
+  text-align: center;
+  margin: 50px auto;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  margin: 30px auto;
+}
+.contact-details {
+  width: 100%;
+  display: flex;
+  justify-self: center;
+  margin: 10px auto;
+  /* border: 1px solid black; */
+}
+.contact-details input {
+  width: 50%;
+  margin: auto 0;
+  margin-right: 5%;
+  text-align: left;
+  padding: 5px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+.contact-details label {
+  width: 50%;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+.content-message {
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+}
+.content-message textarea {
+  width: 95%;
+  height: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: #333;
+}
+form input {
+  width: 30%;
+}
+.btn-send {
+  margin: 20px auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  border-radius: 30px;
+  padding: 0.5em 1.8em;
+  background-color: #fff;
+  text-align: center;
+  border: 2px solid #47bdc7;
+}
