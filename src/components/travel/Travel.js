@@ -26,13 +26,11 @@ export default function Preview() {
         <h2 className="title-second">The beginning</h2>
         <section className="story">
           <p className="paragraph-story">
-            En el colegio, estudie Electrónica, en mi ultimo año aprendí lenguaje Ladder(especifico para programar PLC's) y trabaje algo de
-            assembler, en ese punto me di cuenta que tenia algo de afinidad con la programación. Al entrar a la Universidad decidí estudiar tecnología en
-            electrónica allí aprendí sobre electrónica analógica, digital, de potencia entre otras cosas, sin embargo las asignaturas que más disfrute
-            se relacionaban con programación, tuve una matería dedicada a entender como crear algoritmos, pero primero los escibía en papel, sí, aunque
-            hoy en día es una costumbre que se ha perdido esto me ayudo mucho a entender y crear mi lógica, alli mismo conocí mi primer lenguaje C++,
-            fue un proceso muy interesante. Más tarde trabaje con Microcontroladores PIC, fue una inmersión total en el mundo de la programación,
-            sin embargo fue especial porque yo mismo diseño una placa donde probaba mis programas. 
+            Mis primeros lenguajes de programación los conocí en mi colegio, fueron  Lader(especifico para programar PLC's) y assembler.
+            En la universidad estudie Tecnología en Electrónica aprendí sobre electrónica analógica, digital entre otras cosas, sin embargo 
+            las asignaturas que más disfrute se relacionaban con programación, aprendí desde diseñar algoritmos y secuencias en un papel hasta 
+            crear mis primeras líneas de código en C++, fue un proceso muy interesante. Más tarde trabaje con Microcontroladores PIC, este fue
+            un paso especial porque yo mismo diseño mi primera placa donde probe mis programas. 
           </p>
           <div className="image-story">
             <img className="image-content" src={beginnig} alt="site-under-construction"/>
@@ -42,7 +40,11 @@ export default function Preview() {
         <section className="story">
           
           <p className="paragraph-story">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            Eventualmente trabaje en varias empresas y retome mis estudios, esta vez fue Tecnología en Sistemas, estudie con lenguajes como 
+            Dr. Scheme, C++, JAVA, mejore mi lógica a través de asignaturas pensadas en ciencias de la computación desde un enfoque sistémico 
+            pensado en resolver los problemas de manera integral, en esta parte de mi historia tome la oportunidad de trabajar, pero eso se los cuento
+            en un rato, también realice estudios relacionados con SCRUM en este proceso trabaje con lenguajes como PHP y MySQL, como proyecto
+            final realizamos un sistema de peticiones en el que participe como desarrollador frontend con el Framework Angular 7.
           </p>
           <div className="image-story">
             <img className="image-content" src={next_steps} alt="site-under-construction"/>
@@ -52,7 +54,10 @@ export default function Preview() {
         <section className="story">
           
           <p className="paragraph-story">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            Desde mi inicio en el mundo tech pasaron 8 años antes de mi primer trabajo en Tech, antes había trabajado en atención al cliente y como vendedor
+            de seguros, estas experiencias complementaron mi perfil, este trabajo fue como consultor de soporte de software, aprendí sobre
+            servidores Linux, Windows y bases de datos PostgreSQL, poco tiempo después me seleccionaron con líder de un nuevo proyecto, participe desde su
+            estandarización, puesta en marcha y gestión.
           </p>
           <div className="image-story">
             <img className="image-content" src={working_life} alt="site-under-construction"/>
@@ -63,7 +68,10 @@ export default function Preview() {
         <section className="story">
           
           <p className="paragraph-story">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            Finalmente ingrese a Holberton School un lugar donde pude consolidar todas estas experiencias, fueron 9 meses trabajando de manera
+            independiente y en equipo en los que me enfrente a resolver problemas con estructuras de datos, low level, high level con lenguajes
+            como C, Bash, Python, JavaScript, HTML y CSS, aprendiendo de todo el proceso de desarrollo de software, te comparto mi ultimo proyecto,
+            trabajamos en equipo para desarrollar Hovify, en este proyecto participe como frontend developer en React.
           </p>
           <div className="image-story">
             <img className="image-content" src={at_the_present} alt="site-under-construction"/>
