@@ -58,7 +58,7 @@ export default function Preview() {
           
           <p className="paragraph-story">
             From my beginnings in the tech world, it was 8 years before <span>my first job in this industry</span>, previously worked in customer service and
-            insurance sales, these experiences complimented my profile, I worked as a <span>software support consultant</span>, I learned about <span>Linux</span> and Windows
+            insurance sales, these experiences complemented my profile, I worked as a <span>software support consultant</span>, I learned about <span>Linux</span> and Windows
             servers and <span>PostgreSQL databases</span>. Then I was selected as a <span>Lead of a new project</span>,  I participated in its implementation, standardization
             and management
           </p>
@@ -68,13 +68,13 @@ export default function Preview() {
       
           
         </section>
-        <h2 className="title-second">At the present</h2>
+        <h2 className="title-second">Nowadays</h2>
         <section className="story">
           
           <p className="paragraph-story">
-            Finally, I joined Holberton Schooll, in this place I could consolidate all these experiences, it was 9 months working  indepent and teams,
+            Finally, I joined Holberton Schooll, in this place I could consolidate all these experiences, it was 9 months working  indepent and somethomes teams,
             I faced to resolve problems with <span>data strcutures</span>, <span>DevOps</span>, <span>low level</span>, and <span>high level</span> with languages such as <span>C</span>, <span>Bash</span>, <span>Python</span>, <span>JavaScript</span>,
-            <span>HTML</span> and <span>CSS</span>,  I share with you my <span>last project</span>, we work to create <span><strong><a href="https://hovify.works/">HoviFy</a></strong></span>, in this project as a Frontend developer with <span>React</span>.
+            <span>HTML</span> and <span>CSS</span>,  I share with you my <span>last project</span>, we work to create <span><strong><a href="https://hovify.works/">HoviFy</a></strong></span>, in this project my role was a Frontend developer with <span>React</span>.
           </p>
           <div className="image-story">
             <img className="image-content" src={at_the_present} alt="site-under-construction"/>
