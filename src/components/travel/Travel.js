@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+import Fade from 'react-reveal/Fade';
 import build_contruction from '../images/Under-construction-bro.svg';
 import moving_forward from '../images/moving-forward-pana.svg';
 import beginnig from '../images/market-launch-amico.svg';
@@ -17,7 +18,9 @@ export default function Preview() {
     <>
       <section className="travel">
         <h2 className="title-first">My journey in tech world</h2>
-        <img className="image top" src={moving_forward} alt="person-movinf-forward"/>
+        <Fade big>
+          <img className="image top" src={moving_forward} alt="person-movinf-forward"/>
+        </Fade>
         <p className="main-paragraph">
           From the beginning of my academic and working life, I've been connected with software development world, I have programmed PIC microcontrollers,
            my firsts languages were <span>C++</span> and <span>Dr. Scheme</span>, I have studied about agile(<span>SCRUM</span>), <span>low level</span>, <span>Linux</span> and <span>web development</span>.
@@ -33,7 +36,9 @@ export default function Preview() {
             my first circuit board where I tested my programs.
           </p>
           <div className="image-story">
-            <img className="image-content" src={beginnig} alt="site-under-construction"/>
+            <Fade left>
+              <img className="image-content" src={beginnig} alt="site-under-construction"/>
+            </Fade>
           </div>
           
         </section>
@@ -49,7 +54,9 @@ export default function Preview() {
             system(PQR), participated as a frontend developer with the <span>Angular 7</span> Framework.
           </p>
           <div className="image-story">
-            <img className="image-content" src={next_steps} alt="site-under-construction"/>
+            <Fade right>
+              <img className="image-content" src={next_steps} alt="site-under-construction"/>
+            </Fade>
           </div>
           
         </section>
@@ -63,7 +70,9 @@ export default function Preview() {
             and management
           </p>
           <div className="image-story">
-            <img className="image-content" src={working_life} alt="site-under-construction"/>
+            <Fade left>
+              <img className="image-content" src={working_life} alt="site-under-construction"/>
+            </Fade>
           </div>
       
           
@@ -77,7 +86,9 @@ export default function Preview() {
             <span>HTML</span> and <span>CSS</span>,  I share with you my <span>last project</span>, we work to create <span><strong><a href="https://hovify.works/">HoviFy</a></strong></span>, in this project my role was as Frontend developer with <span>React</span>.
           </p>
           <div className="image-story">
-            <img className="image-content" src={at_the_present} alt="site-under-construction"/>
+            <Fade right>
+              <img className="image-content" src={at_the_present} alt="site-under-construction"/>
+            </Fade>
           </div>
           
         </section>

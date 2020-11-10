@@ -4,7 +4,8 @@ import './About_responsive_600px.css';
 
 /* pdf */
 import resume from '../assets/JuanSebastianLlanocV.pdf';
-import { useHistory, Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
 
 
 /* images */
@@ -46,7 +47,9 @@ export default function About() {
           From the beginning of my academic and working life, I've been connected with software development world, I have programmed PIC microcontrollers, my firsts languages were C++ and Dr. Scheme, I have studied about agile(SCRUM), low level, linux and web development.
           <br />Let's start this journey.
         </p>
-        <img className='image' src={launch_rocket} alt="image-rocket-launch" onClick={nextPage} />
+        <Fade bottom>
+          <img className='image' src={launch_rocket} alt="image-rocket-launch" onClick={nextPage} />
+        </Fade>
       </section>
       
     </>

@@ -17,9 +17,8 @@ function App() {
 
       {/* Basic implementation of React router dom */}
       <Router>
-
-        {/* in this article it renders whole SPA */}
-        <article id="home" className="page-content">
+          {/* in this article it renders whole SPA */}
+          <article id="home" className="page-content">
           {/* 
             * Nav bar, implement the logi for render a burguer menu in responsive 600px,
             * Alert: Responsive design is missing for other screen sizes
@@ -43,7 +42,7 @@ function App() {
               <Link to="/">Home</Link>
               <Link to="/travel_in_tech">Travel in tech</Link>
               <Link to="/resume">Resume</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact">Say hello</Link>
 
             </div>
 
