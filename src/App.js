@@ -10,13 +10,14 @@ import icon_github from './components/images/github.svg';
 import icon_linkedin from './components/images/linkedin.svg';
 import icon_twitter from './components/images/twitter.svg';
 import icon_email from './components/images/email.svg';
+import Projects from './components/projects/Projects';
 
 function App() {
   function openMenu(e) {
     e.preventDefault();
 
     let menu = document.getElementById('menu');
-    menu.style.height = '200px';
+    menu.style.height = '250px';
   }
   function closeMenu(e) {
     e.preventDefault();
@@ -55,6 +56,7 @@ function App() {
               <Link to="/">Home</Link>
               <Link to="/travel_in_tech">Travel in tech</Link>
               <Link to="/resume">Resume</Link>
+              <Link to="/projects">Projects</Link>
               <Link to="/contact">Say hello</Link>
 
             </div>
@@ -75,6 +77,9 @@ function App() {
             <Route exact path="/contact">
               <Contact />
             </Route>
+            <Route exact path="/projects">
+              <Projects />
+            </Route>
           </Switch>
 
           {/* footer section */}
@@ -90,7 +95,6 @@ function App() {
               <a href="https://twitter.com/juanse_dev" target="blank"><img className="icon" src={icon_twitter} alt="twitter_user: @juanse_dev"/></a>
               
             </article>
-            <p><a href="https://github.com/juansedev/juansedev_site" target="blank">Project's repository</a></p>
             <p>© 2020 All rights reserved. Juan Sebastian Llano.</p>
           </footer>
         </article>

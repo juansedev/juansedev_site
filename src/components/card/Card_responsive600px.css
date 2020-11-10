@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+  .project-section {
+    width: 100%;
+    height: 500px;
+  }
+  .title-project,
+  .stack-project,
+  .descp-project {
+    margin: 10px 10px;
+  }
+}

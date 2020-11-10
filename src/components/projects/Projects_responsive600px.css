@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+  /* Resume */
+  .projects {
+    width: 100%;
+    margin: 0;
+  }
+  .projects-container {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-section {
+    width: 90%;
+  }
+  .project-section:hover {
+    border: 1px solid black;
+  }
+  /* .story {
+    flex-direction: column;
+  }
+  .main-paragraph {
+    margin: 0;
+    width: 100%;
+  }
+  .main-paragraph,
+  .paragraph-story {
+    width: 100%;
+    margin: 0;
+    font-size: 15px;
+    padding: 0;
+  }
+  .image-story {
+    width: 100%;
+  }
+  .image-content {
+    width: 80%;
+  }
+  .title-second {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 400;
+    color: #022b3e;
+    margin: 20px 0px;
+    line-height: 0.9;
+  } */
+}
