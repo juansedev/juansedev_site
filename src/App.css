@@ -77,3 +77,11 @@ nav > .menu > a:hover {
 .baner-js {
   width: 10%;
 }
+footer a {
+  color: #47bdc7;
+  text-decoration: none;
+  font-size: 18px;
+}
+footer a:hover {
+  color: #fe414a;
+}

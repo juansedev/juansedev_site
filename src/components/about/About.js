@@ -4,7 +4,7 @@ import './About_responsive_600px.css';
 
 /* pdf */
 import resume from '../assets/JuanSebastianLlanocV.pdf';
-import { useHistory } from 'react-router-dom';
+import { useHistory, Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 
 
@@ -35,7 +35,7 @@ export default function About() {
           <p className="paragraph">I write my code thinking about the person who will read it, I'm an enthusiastic learner, and sometimes I teach my friends. I'll do my best to help you solve your problems.</p>
           <div className="btn-contact">
             <button className="btn" type="button"><a href={resume} download>Download Resume</a></button>
-            <button className="btn left-btn contacts" ><a href="#contact" download>Contact</a></button>
+            <button className="btn left-btn contacts" ><Link to="/contact">Contact</Link></button>
           </div>
         </div>
       </section>

@@ -12,6 +12,18 @@ import icon_twitter from './components/images/twitter.svg';
 import icon_email from './components/images/email.svg';
 
 function App() {
+  function openMenu(e) {
+    e.preventDefault();
+
+    let menu = document.getElementById('menu');
+    menu.style.height = '200px';
+  }
+  function closeMenu(e) {
+    e.preventDefault();
+
+    let menu = document.getElementById('menu');
+    menu.style.height = '0px';
+  }
   return (
     
     <div className="App">
@@ -31,7 +43,7 @@ function App() {
               <Link to="/"><img className='logo-branding' src={baner} alt="Logo-juanse-developer" /></Link>
             </div>
 
-            <div className="nav-btn">
+            <div className="nav-btn" onClick={openMenu} id="menu-btn">
               <label for="nav-check">
                 <span></span>
                 <span></span>
@@ -39,7 +51,7 @@ function App() {
               </label>
             </div> 
 
-            <div className="menu">
+            <div className="menu" onClick={closeMenu} id="menu">
               <Link to="/">Home</Link>
               <Link to="/travel_in_tech">Travel in tech</Link>
               <Link to="/resume">Resume</Link>
@@ -78,9 +90,9 @@ function App() {
               <a href="https://twitter.com/juanse_dev" target="blank"><img className="icon" src={icon_twitter} alt="twitter_user: @juanse_dev"/></a>
               
             </article>
+            <p><a href="https://github.com/juansedev/juansedev_site" target="blank">Project's repository</a></p>
             <p>© 2020 All rights reserved. Juan Sebastian Llano.</p>
           </footer>
-
         </article>
       </Router>
     </div>

@@ -56,7 +56,11 @@ form input {
   font-size: 18px;
   border-radius: 30px;
   padding: 0.5em 1.8em;
-  background-color: #fff;
+  background-color: #47bdc7;
   text-align: center;
   border: 2px solid #47bdc7;
+  color: #fff;
+}
+.btn-send:hover {
+  border: 2px solid #022b3e;
 }
