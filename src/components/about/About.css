@@ -3,18 +3,14 @@
   padding: 5% 0%;
   width: 100%;
   display: flex;
-  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
 }
 .circle {
-  /* width: 100%; */
   display: inline-block; /* circle wraps image */
   margin: 40px 5%;
   border: 7px solid rgba(200, 200, 200, 0.4);
   border-radius: 50%; /* relative value */
-  /*box-shadow: 0px 0px 5px rgba(0,0,0,0.4);*/
-  /* transition: linear 0.25s; */
   height: 283px;
   width: 283px;
 }
@@ -24,11 +20,10 @@
   flex-direction: column;
   text-align: left;
 }
-/* .btn-contact {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-} */
+.btn-contact a {
+  text-decoration: none;
+  color: #fff;
+}
 .btn {
   display: inline-block;
   position: relative;
@@ -63,7 +58,6 @@
   font-size: 33px;
   font-weight: 400;
   color: #022b3e;
-  /* margin-bottom: 40px; */
   margin: 0px;
   line-height: 0.9;
 }

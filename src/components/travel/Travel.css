@@ -6,7 +6,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* border: solid 1px black; */
 }
 .top {
   margin-top: 15px;
@@ -22,7 +21,6 @@
 }
 .story {
   width: 100%;
-  /* border: solid 1px red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +33,6 @@
   margin: 20px 0px;
   width: 100%;
   padding-left: 30px;
-  /* border: solid 1px chartreuse; */
   text-align: left;
 }
 .paragraph-story {
@@ -46,7 +43,6 @@
   margin: 20px 0px;
   width: 45%;
   padding-left: 30px;
-  /* border: solid 1px chartreuse; */
   text-align: left;
 }
 .main-paragraph span,
@@ -55,12 +51,8 @@
   color: #fe414a;
   text-decoration: none;
 }
-/* .main-title span ~ span {
-  color: #262ad1;
-} */
 .image-story {
   width: 55%;
-  /* border: solid 1px crimson; */
 }
 .image-content {
   width: 60%;
