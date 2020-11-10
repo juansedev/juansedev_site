@@ -18,9 +18,7 @@ export default function Preview() {
     <>
       <section className="travel">
         <h2 className="title-first">My journey in tech world</h2>
-        <Fade big>
-          <img className="image top" src={moving_forward} alt="person-movinf-forward"/>
-        </Fade>
+        <img className="image top" src={moving_forward} alt="person-movinf-forward"/>
         <p className="main-paragraph">
           From the beginning of my academic and working life, I've been connected with software development world, I have programmed PIC microcontrollers,
            my firsts languages were <span>C++</span> and <span>Dr. Scheme</span>, I have studied about agile(<span>SCRUM</span>), <span>low level</span>, <span>Linux</span> and <span>web development</span>.
