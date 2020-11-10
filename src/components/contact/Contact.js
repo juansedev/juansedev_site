@@ -14,8 +14,8 @@ export default function Contact() {
     e.preventDefault();
 
     emailjs.sendForm('service_jpw8ogu', 'template_mfpppee', e.target, 'user_M1jT3jjTD2Z0FAmnSHZhp')
-      .then((result) => {
-          console.log(result.text);
+      .then((response) => {
+           console.log('SUCCESS!', response.status, response.text);
       }, (error) => {
           console.log(error.text);
       });
@@ -29,12 +29,12 @@ export default function Contact() {
         <form className="contact-form" onSubmit={sendEmail}>
           <div className="contact-details">
             <label>Name</label>
-            <input type="text" name="user_name" />
+            <input type="text" name="from_name" />
             
           </div>
           <div className="contact-details">
             <label>Email</label>
-            <input type="email" name="user_email" />
+            <input type="email" name="from_email" />
           </div>
           <div className="contact-details">
             <label>Message</label>

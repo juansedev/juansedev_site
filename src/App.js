@@ -13,6 +13,7 @@ import icon_email from './components/images/email.svg';
 
 function App() {
   return (
+    
     <div className="App">
 
       {/* Basic implementation of React router dom */}
