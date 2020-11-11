@@ -31,10 +31,10 @@ export default function About() {
         </div>
 
         <div className="intro-text">
-          <h1 className="title-first">Full-Stack Developer, always learner, and smiley person.</h1>
+          <h1 className="title-first">Full-Stack Developer, always learner, eager for knowledge, and smiley person..</h1>
           <p className="paragraph">I write my code thinking about the person who will read it, I'm an enthusiastic learner, and sometimes I teach my friends. I'll do my best to help you solve your problems.</p>
           <div className="btn-contact">
-            <button className="btn" type="button"><a href={resume} download>Download Resume</a></button>
+            <a href={resume} className="btn" download>Download Resume</a>
             <Link to="/contact" type="button" className="btn left-btn contacts">Contact</Link>
           </div>
         </div>
