@@ -15,7 +15,7 @@ export default function Card({ key ,title_project, image, descp_project, repo__p
             {descp_project}
             <br />
             <br/>
-            Last_updated: <span>{last_updated}</span>
+            Last updated: <span>{last_updated}</span>
           </p>
           <article className="stack-project">
             Used technologies: <span>{stack__project}</span>
