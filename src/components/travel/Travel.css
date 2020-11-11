@@ -48,8 +48,12 @@
 .main-paragraph span,
 .paragraph-story a,
 .paragraph-story span {
+  /* color: #fe414a; */
+  font-weight: 600;
+}
+.paragraph-story a {
   color: #fe414a;
-  text-decoration: none;
+  font-weight: 600;
 }
 .image-story {
   width: 55%;

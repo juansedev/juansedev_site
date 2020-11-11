@@ -18,20 +18,20 @@ import './Projects_responsive600px.css';
 const projectList = [
   {
     key: 1,
-    title_project: "Portfolio Project",
+    title_project: "Developer portfolio",
     image: baner,
-    descp_project: 'Developer portfolio, in this project a SPA is created using React-router-dom, React-reveal, HTML and CSS.',
+    descp_project: 'Developer portfolio, in this project a SPA is created using React-router-dom, React-reveal, HTML, and CSS.',
     repo__project: 'https://github.com/juansedev/juansedev_site',
-    stack__project: "Html, CSS, React, React-router-dom, React-reveal.",
+    stack__project: "HTML, CSS, React, React-router-dom, React-reveal.",
     last_updated: "October 2020."
   },
   {
     key: 2,
-    title_project: "Hovify",
+    title_project: "Holberton portfolio project - Hovify",
     image: hovify,
     descp_project: 'In this project my role was as Frontend developer with React. In HoviFy we believe that anyone with the right attitude should...',
     repo__project: 'https://hovify.works/',
-    stack__project: "Html, CSS, React, React-router-dom, React-reveal, React-hook-form, Material-UI, API.",
+    stack__project: "HTML, CSS, React, React-router-dom, React-reveal, React-hook-form, Material-UI, API.",
     last_updated: "October 2020."
   },
   {
@@ -40,7 +40,7 @@ const projectList = [
     image: react_logo,
     descp_project: 'In progress. 🧙 In this repository I will share my react projects, some concepts around react and my experience with this library. 🚀',
     repo__project: 'https://github.com/juansedev/react',
-    stack__project: "Html, CSS, JS, React.",
+    stack__project: "HTML, CSS, JS, and React.",
     last_updated: "Octuber 2020."
   },
   {
@@ -49,7 +49,7 @@ const projectList = [
     image: hbnb,
     descp_project: 'This is a website clone of AirBnB, with the fundamental features implemented. It has a front-end, a database, an API...',
     repo__project: 'https://github.com/juansedev/AirBnB_clone',
-    stack__project: "Html, CSS, Python, MySQL, CRUD, API.",
+    stack__project: "HTML, CSS, Python, MySQL, and CRUD.",
     last_updated: "July 2020."
   },
   {
@@ -58,7 +58,7 @@ const projectList = [
     image: hbnb,
     descp_project: 'Latest version of the AirBnB Clone project, using JavaScript. Python, Flask and Restfull API were used in the backend.',
     repo__project: 'https://github.com/mfcrespo/AirBnB_clone_v4',
-    stack__project: "Html, CSS, JS, Pyton, Restfull API.",
+    stack__project: "HTML, CSS, JS, Python, and RESTful API.",
     last_updated: "September 2020."
   },
   {
@@ -76,7 +76,8 @@ const projectList = [
     image: medium,
     descp_project: 'Writer of topics on Software Development.',
     repo__project: 'https://medium.com/@juansedev',
-    stack__project: "Medium."
+    stack__project: "Medium.",
+    last_updated: "May 2020."
   },
   {
     key: 8,
@@ -84,7 +85,8 @@ const projectList = [
     image: github,
     descp_project: 'Writer of topics on Software Development.',
     repo__project: 'https://github.com/juansedev',
-    stack__project: "GitHub."
+    stack__project: "GitHub.",
+    last_updated: "October 2020."
   },
   
 ];

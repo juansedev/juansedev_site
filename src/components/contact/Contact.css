@@ -28,6 +28,7 @@
   color: #333;
 }
 .contact-details label {
+  margin-bottom: 15px;
   width: 10%;
   text-align: left;
   font-family: "Montserrat", sans-serif;
@@ -50,11 +51,13 @@ form input {
   width: 30%;
 }
 .btn-send {
+  display: inline-block;
   margin: 20px auto;
   font-family: "Montserrat", sans-serif;
-  font-size: 18px;
+  font-size: 19px;
+  font-weight: 400;
   border-radius: 30px;
-  padding: 0.5em 1.8em;
+  padding: 9px;
   background-color: #47bdc7;
   text-align: center;
   border: 2px solid #47bdc7;
