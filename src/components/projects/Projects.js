@@ -30,7 +30,7 @@ const projectList = [
     title_project: "Hovify",
     image: hovify,
     descp_project: 'In this project my role was as Frontend developer with React. In HoviFy we believe that anyone with the right attitude should...',
-    repo__project: 'link',
+    repo__project: 'https://hovify.works/',
     stack__project: "Html, CSS, React, React-router-dom, React-reveal, React-hook-form, Material-UI, API.",
     last_updated: "October 2020."
   },
